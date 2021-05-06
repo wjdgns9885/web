@@ -4,6 +4,7 @@
 <html>
 <body>
 <h3>게시글 상세보기</h3>
+<p><a href="./articleList">게시글 목록</a></p>
 <%
   Article article = (Article) request.getAttribute("getArticle");
   %>
